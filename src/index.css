@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  @apply max-w-screen-2xl m-auto 
+}
+
+#root {
+  @apply flex flex-col relative min-h-screen
+}
+
