@@ -5,10 +5,19 @@
 
 
 body {
-  @apply max-w-screen-2xl m-auto 
+  @apply max-w-screen-2xl m-auto
 }
 
 #root {
-  @apply flex flex-col relative min-h-screen
+  @apply flex flex-col relative min-h-screen bg-slate-300
 }
 
+.magnify {
+  @apply absolute hidden bg-no-repeat border-2 border-black rounded-full;
+  width: 150px;
+  height: 150px;
+  background-size: 500%;
+  background-position: center;
+  pointer-events: none;
+
+}
