@@ -1,17 +1,19 @@
 import React from 'react'
 import CartMostPopular from './CartMostPopular'
-import image1 from '../assets/img/MostPopular/1.jpg'
-import image2 from '../assets/img/MostPopular/2.jpg'
-import image3 from '../assets/img/MostPopular/3.jpg'
-import { useAppContext } from './AppProvider'
+import image1 from '../../assets/img/MostPopular/1.jpg'
+import image2 from '../../assets/img/MostPopular/2.jpg'
+import image3 from '../../assets/img/MostPopular/3.jpg'
+
 const MostPopular = () => {
 
     return (
-        <section className='w-full h-full lg:h-screen flex flex-col bg-slate-300'>
+        <section
+            id="MostPopular"
+            className='w-full h-full lg:h-screen flex flex-col  bg-[#d5c4e1]'>
 
             <div className=' h-[100px] lg:h-[150px] flex justify-center items-center'>
-                <h2 className='text-3xl sm:text-4xl  lg:text-6xl'>
-                    MostPopular
+                <h2 className='text-3xl sm:text-4xl  lg:text-6xl font-rust_g  tracking-wider -skew-y-3 -skew-x-6'>
+                    DESTACADOS
                 </h2>
             </div>
 

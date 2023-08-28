@@ -13,7 +13,14 @@ const AppProvider = ({ children }) => {
 
 
     return (
-        <AppContext.Provider value={{ cart: state.cart, products: state.products, dispatch }}>
+        <AppContext.Provider value={{
+            cart: state.cart,
+            products: state.products,
+            copyOfProducts:state.copyOfProducts,
+            product: state.product,
+            categories: state.categories,
+            dispatch
+        }}>
             {children}
         </AppContext.Provider>
     )

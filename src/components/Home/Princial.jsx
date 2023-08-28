@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import image1 from '../assets/img/CarouselBanner/1.png'
-import image2 from '../assets/img/CarouselBanner/2.webp'
+import image1 from '../../assets/img/CarouselBanner/1.png'
+import image2 from '../../assets/img/CarouselBanner/2.webp'
 
 const Principal = () => {
 

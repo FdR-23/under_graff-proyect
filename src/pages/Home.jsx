@@ -1,10 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-
-import MostPopular from '../components/MostPopular'
-import NewsProdutcs from '../components/NewsProdutcs'
-
-import Principal from '../components/Princial'
+import MostPopular from '../components/Home/MostPopular'
+import NewsProdutcs from '../components/Home/NewsProdutcs'
+import Principal from '../components/Home/Princial'
 
 const Home = () => {
 

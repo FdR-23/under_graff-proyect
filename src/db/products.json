@@ -8,10 +8,10 @@
       "talla": "M",
       "precio": 20,
       "stock": 5,
-      "img_small": "src/assets/img/Products/Accesories/1aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/1aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/1a.jpg",
-        "src/assets/img/Products/Accesories/1b.jpg"
+        "/src/assets/img/Products/Accesories/1a.jpg",
+        "/src/assets/img/Products/Accesories/1b.jpg"
       ]
     },
     {
@@ -22,12 +22,12 @@
       "talla": "M",
       "precio": 10,
       "stock": 8,
-      "img_small": "src/assets/img/Products/Accesories/2aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/2aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/2a.jpg",
-        "src/assets/img/Products/Accesories/2b.jpg",
-        "src/assets/img/Products/Accesories/2c.jpg",
-        "src/assets/img/Products/Accesories/2d.jpg"
+        "/src/assets/img/Products/Accesories/2a.jpg",
+        "/src/assets/img/Products/Accesories/2b.jpg",
+        "/src/assets/img/Products/Accesories/2c.jpg",
+        "/src/assets/img/Products/Accesories/2d.jpg"
       ]
     },
     {
@@ -36,10 +36,10 @@
       "nombre": "Aros mandala",
       "precio": 8.88,
       "stock": 10,
-      "img_small": "src/assets/img/Products/Accesories/3aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/3aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/3a.jpg",
-        "src/assets/img/Products/Accesories/3b.jpg"
+        "/src/assets/img/Products/Accesories/3a.jpg",
+        "/src/assets/img/Products/Accesories/3b.jpg"
       ]
     },
     {
@@ -48,9 +48,9 @@
       "nombre": "Aro bañado en oro con piedras",
       "precio": 18,
       "stock": 3,
-      "img_small": "src/assets/img/Products/Accesories/4aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/4aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/4a.jpg"
+        "/src/assets/img/Products/Accesories/4a.jpg"
       ]
     },
     {
@@ -59,9 +59,9 @@
       "nombre": "Aro de oro con diamantea",
       "precio": 25,
       "stock": 8,
-      "img_small": "src/assets/img/Products/Accesories/5aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/5aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/5a.jpg"
+        "/src/assets/img/Products/Accesories/5a.jpg"
       ]
     },
     {
@@ -72,10 +72,10 @@
       "talla": "S",
       "precio": 25,
       "stock": 19,
-      "img_small": "src/assets/img/Products/Accesories/6aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/6aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/6a.jpg",
-        "src/assets/img/Products/Accesories/6b.jpg"
+        "/src/assets/img/Products/Accesories/6a.jpg",
+        "/src/assets/img/Products/Accesories/6b.jpg"
       ]
     },
     {
@@ -86,10 +86,10 @@
       "talla": "S",
       "precio": 12,
       "stock": 25,
-      "img_small": "src/assets/img/Products/Accesories/7aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/7aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/7a.jpg",
-        "src/assets/img/Products/Accesories/7b.jpg"
+        "/src/assets/img/Products/Accesories/7a.jpg",
+        "/src/assets/img/Products/Accesories/7b.jpg"
       ]
     },
     {
@@ -100,11 +100,11 @@
       "talla": "S",
       "precio": 35,
       "stock": 15,
-      "img_small": "src/assets/img/Products/Accesories/8aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/8aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/8a.jpg",
-        "src/assets/img/Products/Accesories/8b.jpg",
-        "src/assets/img/Products/Accesories/8c.jpg"
+        "/src/assets/img/Products/Accesories/8a.jpg",
+        "/src/assets/img/Products/Accesories/8b.jpg",
+        "/src/assets/img/Products/Accesories/8c.jpg"
       ]
     },
     {
@@ -115,10 +115,10 @@
       "talla": "M",
       "precio": 30,
       "stock": 8,
-      "img_small": "src/assets/img/Products/Accesories/9aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/9aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/9a.jpg",
-        "src/assets/img/Products/Accesories/9b.jpg"
+        "/src/assets/img/Products/Accesories/9a.jpg",
+        "/src/assets/img/Products/Accesories/9b.jpg"
       ]
     },
     {
@@ -129,10 +129,10 @@
       "talla": "M",
       "precio": 30,
       "stock": 8,
-      "img_small": "src/assets/img/Products/Accesories/10aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/10aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/10a.jpg",
-        "src/assets/img/Products/Accesories/10b.jpg"
+        "/src/assets/img/Products/Accesories/10a.jpg",
+        "/src/assets/img/Products/Accesories/10b.jpg"
       ]
     },
     {
@@ -143,10 +143,10 @@
       "talla": "S",
       "precio": 15,
       "stock": 8,
-      "img_small": "src/assets/img/Products/Accesories/11aSmall.png",
+      "img_small": "/src/assets/img/Products/Accesories/11aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Accesories/11a.jpg",
-        "src/assets/img/Products/Accesories/11b.jpg"
+        "/src/assets/img/Products/Accesories/11a.jpg",
+        "/src/assets/img/Products/Accesories/11b.jpg"
       ]
     },
     {
@@ -157,10 +157,10 @@
       "talla": "S",
       "precio": 15.5,
       "stock": 8,
-      "img_small": "src/assets/img/Products/Pants/1aSmall.png",
+      "img_small": "/src/assets/img/Products/Pants/1aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Pants/1a.jpg",
-        "src/assets/img/Products/Pants/1b.jpg"
+        "/src/assets/img/Products/Pants/1a.jpg",
+        "/src/assets/img/Products/Pants/1b.jpg"
       ]
     },
     {
@@ -171,10 +171,10 @@
       "talla": "S",
       "precio": 20.99,
       "stock": 3,
-      "img_small": "src/assets/img/Products/Pants/2aSmall.png",
+      "img_small": "/src/assets/img/Products/Pants/2aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Pants/2a.jpg",
-        "src/assets/img/Products/Pants/2b.jpg"
+        "/src/assets/img/Products/Pants/2a.jpg",
+        "/src/assets/img/Products/Pants/2b.jpg"
       ]
     },
     {
@@ -185,10 +185,10 @@
       "talla": "M",
       "precio": 16.99,
       "stock": 2,
-      "img_small": "src/assets/img/Products/Pants/3aSmall.png",
+      "img_small": "/src/assets/img/Products/Pants/3aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Pants/3a.jpg",
-        "src/assets/img/Products/Pants/3b.jpg"
+        "/src/assets/img/Products/Pants/3a.jpg",
+        "/src/assets/img/Products/Pants/3b.jpg"
       ]
     },
     {
@@ -199,11 +199,11 @@
       "talla": "S",
       "precio": 16.99,
       "stock": 5,
-      "img_small": "src/assets/img/Products/Pants/4aSmall.png",
+      "img_small": "/src/assets/img/Products/Pants/4aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Pants/4a.jpg",
-        "src/assets/img/Products/Pants/4b.jpg",
-        "src/assets/img/Products/Pants/4c.jpg"
+        "/src/assets/img/Products/Pants/4a.jpg",
+        "/src/assets/img/Products/Pants/4b.jpg",
+        "/src/assets/img/Products/Pants/4c.jpg"
       ]
     },
     {
@@ -214,11 +214,11 @@
       "talla": "S",
       "precio": 12.99,
       "stock": 7,
-      "img_small": "src/assets/img/Products/Pants/5aSmall.png",
+      "img_small": "/src/assets/img/Products/Pants/5aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Pants/5a.jpg",
-        "src/assets/img/Products/Pants/5b.jpg",
-        "src/assets/img/Products/Pants/5c.jpg"
+        "/src/assets/img/Products/Pants/5a.jpg",
+        "/src/assets/img/Products/Pants/5b.jpg",
+        "/src/assets/img/Products/Pants/5c.jpg"
       ]
     },
     {
@@ -229,10 +229,10 @@
       "talla": "S",
       "precio": 28.99,
       "stock": 4,
-      "img_small": "src/assets/img/Products/Pants/7aSmall.png",
+      "img_small": "/src/assets/img/Products/Pants/7aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Pants/7a.jpg",
-        "src/assets/img/Products/Pants/7b.jpg"
+        "/src/assets/img/Products/Pants/7a.jpg",
+        "/src/assets/img/Products/Pants/7b.jpg"
       ]
     },
     {
@@ -243,11 +243,11 @@
       "talla": "S",
       "precio": 15.99,
       "stock": 8,
-      "img_small": "src/assets/img/Products/Pants/8aSmall.png",
+      "img_small": "/src/assets/img/Products/Pants/8aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Pants/8a.jpg",
-        "src/assets/img/Products/Pants/8b.jpg",
-        "src/assets/img/Products/Pants/8c.jpg"
+        "/src/assets/img/Products/Pants/8a.jpg",
+        "/src/assets/img/Products/Pants/8b.jpg",
+        "/src/assets/img/Products/Pants/8c.jpg"
       ]
     },
     {
@@ -258,9 +258,9 @@
       "talla": "M",
       "precio": 13.99,
       "stock": 10,
-      "img_small": "src/assets/img/Products/Pants/9aSmall.png",
+      "img_small": "/src/assets/img/Products/Pants/9aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Pants/9a.jpg"
+        "/src/assets/img/Products/Pants/9a.jpg"
       ]
     },
     {
@@ -271,10 +271,10 @@
       "talla": "M",
       "precio": 15.99,
       "stock": 10,
-      "img_small": "src/assets/img/Products/Pants/10aSmall.png",
+      "img_small": "/src/assets/img/Products/Pants/10aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Pants/10a.jpg",
-        "src/assets/img/Products/Pants/10b.jpg"
+        "/src/assets/img/Products/Pants/10a.jpg",
+        "/src/assets/img/Products/Pants/10b.jpg"
       ]
     },
     {
@@ -285,9 +285,9 @@
       "talla": "M",
       "precio": 18.99,
       "stock": 15,
-      "img_small": "src/assets/img/Products/Pants/11aSmall.png",
+      "img_small": "/src/assets/img/Products/Pants/11aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Pants/11a.jpg"
+        "/src/assets/img/Products/Pants/11a.jpg"
       ]
     },
     {
@@ -298,11 +298,11 @@
       "talla": "M",
       "precio": 35.99,
       "stock": 2,
-      "img_small": "src/assets/img/Products/Conjunt/1aSmall.png",
+      "img_small": "/src/assets/img/Products/Conjunt/1aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Conjunt/1a.jpg",
-        "src/assets/img/Products/Conjunt/1b.jpg",
-        "src/assets/img/Products/Conjunt/1c.jpg"
+        "/src/assets/img/Products/Conjunt/1a.jpg",
+        "/src/assets/img/Products/Conjunt/1b.jpg",
+        "/src/assets/img/Products/Conjunt/1c.jpg"
       ]
     },
     {
@@ -313,10 +313,10 @@
       "talla": "M",
       "precio": 30.99,
       "stock": 5,
-      "img_small": "src/assets/img/Products/Conjunt/2aSmall.png",
+      "img_small": "/src/assets/img/Products/Conjunt/2aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Conjunt/2a.jpg",
-        "src/assets/img/Products/Conjunt/2b.jpg"
+        "/src/assets/img/Products/Conjunt/2a.jpg",
+        "/src/assets/img/Products/Conjunt/2b.jpg"
       ]
     },
     {
@@ -327,10 +327,10 @@
       "talla": "M",
       "precio": 30.99,
       "stock": 5,
-      "img_small": "src/assets/img/Products/Conjunt/3aSmall.png",
+      "img_small": "/src/assets/img/Products/Conjunt/3aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Conjunt/3a.jpg",
-        "src/assets/img/Products/Conjunt/3b.jpg"
+        "/src/assets/img/Products/Conjunt/3a.jpg",
+        "/src/assets/img/Products/Conjunt/3b.jpg"
       ]
     },
     {
@@ -341,9 +341,9 @@
       "talla": "M",
       "precio": 25.99,
       "stock": 7,
-      "img_small": "src/assets/img/Products/Conjunt/4aSmall.png",
+      "img_small": "/src/assets/img/Products/Conjunt/4aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Conjunt/4a.jpg"
+        "/src/assets/img/Products/Conjunt/4a.jpg"
       ]
     },
     {
@@ -354,10 +354,10 @@
       "talla": "M",
       "precio": 21.99,
       "stock": 2,
-      "img_small": "src/assets/img/Products/Conjunt/5aSmall.png",
+      "img_small": "/src/assets/img/Products/Conjunt/5aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Conjunt/5a.jpg",
-        "src/assets/img/Products/Conjunt/5b.jpg"
+        "/src/assets/img/Products/Conjunt/5a.jpg",
+        "/src/assets/img/Products/Conjunt/5b.jpg"
       ]
     },
     {
@@ -368,12 +368,12 @@
       "talla": "S",
       "precio": 20.99,
       "stock": 2,
-      "img_small": "src/assets/img/Products/Conjunt/6aSmall.png",
+      "img_small": "/src/assets/img/Products/Conjunt/6aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Conjunt/6a.jpg",
-        "src/assets/img/Products/Conjunt/6b.jpg",
-        "src/assets/img/Products/Conjunt/6c.jpg",
-        "src/assets/img/Products/Conjunt/6d.jpg"
+        "/src/assets/img/Products/Conjunt/6a.jpg",
+        "/src/assets/img/Products/Conjunt/6b.jpg",
+        "/src/assets/img/Products/Conjunt/6c.jpg",
+        "/src/assets/img/Products/Conjunt/6d.jpg"
       ]
     },
     {
@@ -384,10 +384,10 @@
       "talla": "S",
       "precio": 23.99,
       "stock": 3,
-      "img_small": "src/assets/img/Products/Conjunt/7aSmall.png",
+      "img_small": "/src/assets/img/Products/Conjunt/7aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Conjunt/7a.jpg",
-        "src/assets/img/Products/Conjunt/7b.jpg"
+        "/src/assets/img/Products/Conjunt/7a.jpg",
+        "/src/assets/img/Products/Conjunt/7b.jpg"
       ]
     },
     {
@@ -398,10 +398,10 @@
       "talla": "S",
       "precio": 40.99,
       "stock": 2,
-      "img_small": "src/assets/img/Products/Jackets/1aSmall.png",
+      "img_small": "/src/assets/img/Products/Jackets/1aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Jackets/1a.jpg",
-        "src/assets/img/Products/Jackets/1b.jpg"
+        "/src/assets/img/Products/Jackets/1a.jpg",
+        "/src/assets/img/Products/Jackets/1b.jpg"
       ]
     },
     {
@@ -412,11 +412,11 @@
       "talla": "S",
       "precio": 35.99,
       "stock": 2,
-      "img_small": "src/assets/img/Products/Jackets/2aSmall.png",
+      "img_small": "/src/assets/img/Products/Jackets/2aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Jackets/2a.jpg",
-        "src/assets/img/Products/Jackets/2b.jpg",
-        "src/assets/img/Products/Jackets/3c.jpg"
+        "/src/assets/img/Products/Jackets/2a.jpg",
+        "/src/assets/img/Products/Jackets/2b.jpg",
+        "/src/assets/img/Products/Jackets/3c.jpg"
       ]
     },
     {
@@ -427,11 +427,11 @@
       "talla": "M",
       "precio": 42.99,
       "stock": 1,
-      "img_small": "src/assets/img/Products/Jackets/3aSmall.png",
+      "img_small": "/src/assets/img/Products/Jackets/3aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Jackets/3a.jpg",
-        "src/assets/img/Products/Jackets/3b.jpg",
-        "src/assets/img/Products/Jackets/3c.jpg"
+        "/src/assets/img/Products/Jackets/3a.jpg",
+        "/src/assets/img/Products/Jackets/3b.jpg",
+        "/src/assets/img/Products/Jackets/3c.jpg"
       ]
     },
     {
@@ -442,9 +442,9 @@
       "talla": "M",
       "precio": 38.99,
       "stock": 2,
-      "img_small": "src/assets/img/Products/Jackets/4aSmall.png",
+      "img_small": "/src/assets/img/Products/Jackets/4aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Jackets/4a.jpg"
+        "/src/assets/img/Products/Jackets/4a.jpg"
       ]
     },
     {
@@ -455,9 +455,9 @@
       "talla": "S",
       "precio": 24.99,
       "stock": 4,
-      "img_small": "src/assets/img/Products/Jackets/5aSmall.png",
+      "img_small": "/src/assets/img/Products/Jackets/5aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Jackets/5a.jpg"
+        "/src/assets/img/Products/Jackets/5a.jpg"
       ]
     },
     {
@@ -468,9 +468,9 @@
       "talla": "S",
       "precio": 27.99,
       "stock": 2,
-      "img_small": "src/assets/img/Products/Jackets/6aSmall.png",
+      "img_small": "/src/assets/img/Products/Jackets/6aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Jackets/6a.jpg"
+        "/src/assets/img/Products/Jackets/6a.jpg"
       ]
     },
     {
@@ -481,10 +481,10 @@
       "talla": "M",
       "precio": 42.99,
       "stock": 1,
-      "img_small": "src/assets/img/Products/Jackets/7aSmall.png",
+      "img_small": "/src/assets/img/Products/Jackets/7aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Jackets/7a.jpg",
-        "src/assets/img/Products/Jackets/7b.jpg"
+        "/src/assets/img/Products/Jackets/7a.jpg",
+        "/src/assets/img/Products/Jackets/7b.jpg"
       ]
     },
     {
@@ -495,9 +495,9 @@
       "talla": "S",
       "precio": 39.99,
       "stock": 3,
-      "img_small": "src/assets/img/Products/Jackets/8aSmall.png",
+      "img_small": "/src/assets/img/Products/Jackets/8aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Jackets/8a.jpg"
+        "/src/assets/img/Products/Jackets/8a.jpg"
       ]
     },
     {
@@ -508,10 +508,10 @@
       "talla": "S",
       "precio": 34.99,
       "stock": 2,
-      "img_small": "src/assets/img/Products/Jackets/9aSmall.png",
+      "img_small": "/src/assets/img/Products/Jackets/9aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Jackets/9a.jpg",
-        "src/assets/img/Products/Jackets/9b.jpg"
+        "/src/assets/img/Products/Jackets/9a.jpg",
+        "/src/assets/img/Products/Jackets/9b.jpg"
       ]
     },
     {
@@ -522,10 +522,10 @@
       "talla": "S",
       "precio": 35.99,
       "stock": 4,
-      "img_small": "src/assets/img/Products/Jackets/10aSmall.png",
+      "img_small": "/src/assets/img/Products/Jackets/10aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Jackets/10a.jpg",
-        "src/assets/img/Products/Jackets/10b.jpg"
+        "/src/assets/img/Products/Jackets/10a.jpg",
+        "/src/assets/img/Products/Jackets/10b.jpg"
       ]
     },
     {
@@ -536,10 +536,10 @@
       "talla": "S",
       "precio": 25.99,
       "stock": 4,
-      "img_small": "src/assets/img/Products/Sweater/1aSmall.png",
+      "img_small": "/src/assets/img/Products/Sweater/1aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Sweater/1a.jpg",
-        "src/assets/img/Products/Sweater/1b.jpg"
+        "/src/assets/img/Products/Sweater/1a.jpg",
+        "/src/assets/img/Products/Sweater/1b.jpg"
       ]
     },
     {
@@ -550,11 +550,11 @@
       "talla": "S",
       "precio": 23.99,
       "stock": 3,
-      "img_small": "src/assets/img/Products/Sweater/2aSmall.png",
+      "img_small": "/src/assets/img/Products/Sweater/2aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Sweater/2a.jpg",
-        "src/assets/img/Products/Sweater/2b.jpg",
-        "src/assets/img/Products/Sweater/2c.jpg"
+        "/src/assets/img/Products/Sweater/2a.jpg",
+        "/src/assets/img/Products/Sweater/2b.jpg",
+        "/src/assets/img/Products/Sweater/2c.jpg"
       ]
     },
     {
@@ -565,9 +565,9 @@
       "talla": "S",
       "precio": 24.79,
       "stock": 4,
-      "img_small": "src/assets/img/Products/Sweater/3aSmall.png",
+      "img_small": "/src/assets/img/Products/Sweater/3aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Sweater/3a.jpg"
+        "/src/assets/img/Products/Sweater/3a.jpg"
       ]
     },
     {
@@ -578,9 +578,9 @@
       "talla": "S",
       "precio": 23.99,
       "stock": 5,
-      "img_small": "src/assets/img/Products/Sweater/4aSmall.png",
+      "img_small": "/src/assets/img/Products/Sweater/4aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Sweater/4a.jpg"
+        "/src/assets/img/Products/Sweater/4a.jpg"
       ]
     },
     {
@@ -591,10 +591,10 @@
       "talla": "S",
       "precio": 23.99,
       "stock": 3,
-      "img_small": "src/assets/img/Products/Sweater/5aSmall.png",
+      "img_small": "/src/assets/img/Products/Sweater/5aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Sweater/5a.jpg",
-        "src/assets/img/Products/Sweater/5b.jpg"
+        "/src/assets/img/Products/Sweater/5a.jpg",
+        "/src/assets/img/Products/Sweater/5b.jpg"
       ]
     },
     {
@@ -605,11 +605,11 @@
       "talla": "S",
       "precio": 28.59,
       "stock": 2,
-      "img_small": "src/assets/img/Products/Sweater/6bSmall.png",
+      "img_small": "/src/assets/img/Products/Sweater/6bSmall.png",
       "imagen": [
-        "src/assets/img/Products/Sweater/6a.jpg",
-        "src/assets/img/Products/Sweater/6b.jpg",
-        "src/assets/img/Products/Sweater/6c.jpg"
+        "/src/assets/img/Products/Sweater/6a.jpg",
+        "/src/assets/img/Products/Sweater/6b.jpg",
+        "/src/assets/img/Products/Sweater/6c.jpg"
       ]
     },
     {
@@ -620,9 +620,9 @@
       "talla": "S",
       "precio": 23.99,
       "stock": 4,
-      "img_small": "src/assets/img/Products/Sweater/7aSmall.png",
+      "img_small": "/src/assets/img/Products/Sweater/7aSmall.png",
       "imagen": [
-        "src/assets/img/Products/Sweater/7a.jpg"
+        "/src/assets/img/Products/Sweater/7a.jpg"
       ]
     }
   ]
