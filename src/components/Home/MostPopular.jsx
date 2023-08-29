@@ -11,13 +11,13 @@ const MostPopular = () => {
             id="MostPopular"
             className='w-full h-full lg:h-screen flex flex-col  bg-[#d5c4e1]'>
 
-            <div className=' h-[100px] lg:h-[150px] flex justify-center items-center'>
-                <h2 className='text-3xl sm:text-4xl  lg:text-6xl font-rust_g  tracking-wider -skew-y-3 -skew-x-6'>
+            <div className='h-[120px] lg:h-[200px] flex justify-center items-center  pt-5 lg:pt-20'>
+                <h2 className='text-3xl sm:text-5xl  lg:text-7xl font-rust_g  tracking-wider -skew-y-3 -skew-x-6'>
                     DESTACADOS
                 </h2>
             </div>
 
-            <div className='overflow-hidden lg:flex-grow'>
+            <div className='my-auto overflow-hidden'>
                 <div className='flex flex-col mb-5 px-2 pt-2 gap-4 sm:gap-2 lg:pt-0 sm:flex-row 
                              h-full w-full  justify-evenly items-center'>
                     <CartMostPopular

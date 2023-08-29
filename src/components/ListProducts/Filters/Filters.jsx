@@ -7,10 +7,9 @@ import { FilterCategories } from '../../../Services/Request';
 const Filters = ({ filters }) => {
     const { dispatch } = useAppContext();
     let [searchParams, setSearchParams] = useSearchParams();
-
     const query = searchParams.get('categories');
-console.log(query)
 
+    
     useEffect(() => {
         FilterCategories(query)
             .then((category) => {

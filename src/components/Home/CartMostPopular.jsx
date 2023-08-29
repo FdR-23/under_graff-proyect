@@ -12,8 +12,9 @@ const CartMostPopular = ({ image = undefined, category = undefined }) => {
            sm:w-full sm:h-[20rem] sm:m-2
            md:w-[14rem]  md:h-[20rem] 
            lg: lg:w-[18rem] lg:h-[24rem]
-           xl:w-[20rem]  xl:h-[26rem] 
-           overflow-hidden  rounded-sm transition delay-75 duration-500 relative hover:shadow-xl hover:shadow-black'>
+           xl:w-[20rem]  xl:h-[28rem] 
+           overflow-hidden  rounded-md transition delay-75 duration-500 relative 
+           hover:shadow-md hover:shadow-indigo-950'>
 
             <div
                 className={`${!image ? `flex justify-center items-center   
@@ -22,11 +23,11 @@ const CartMostPopular = ({ image = undefined, category = undefined }) => {
             </div>
 
             <div
-                className={`${image ? toggle ? ` bottom-0 cursor-pointer h-full bg-slate-600/10`
+                className={`${image ? toggle ? ` bottom-0 cursor-pointer h-full bg-gray-500/40`
                     : `bottom-0  bg-gray-300/40 h-[40px] lg:h-[60px] ` : `hidden`}
                    absolute z-10  w-full left-[50%]  -translate-x-[50%] transition-all ease-in duration-300`}>
                 <Link to={`/products?categories=${category}`}>
-                    <h4 className={`${toggle ? `text-3xl lg:text-4xl xl:text-5xl rotate-12 text-slate-400  `
+                    <h4 className={`${toggle ? `text-4xl rotate-12 text-slate-100  `
                         : `text-xl lg:text-2xl`} h-full flex justify-center items-center 
                     transition-all  ease-in duration-[400ms]`}>
                         {category}

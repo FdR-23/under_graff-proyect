@@ -20,7 +20,7 @@ const NavBar = () => {
         <header className=" sm:relative h-[100px] lg:h-[150px] box-border
         sticky z-40 top-0 right-0 left-0 border-b-2 ">
 
-            <div className='relative h-full flex  justify-center bg-indigo-950'>
+            <div className='relative h-full flex box-border  justify-center bg-indigo-950 border-b-4 border-indigo-950'>
 
                 {/* <div className='bg-red-500  overflow-hidden
                  w-[16rem] h-full md:w-[20rem] lg:w-[32rem] flex justify-center items-center '>

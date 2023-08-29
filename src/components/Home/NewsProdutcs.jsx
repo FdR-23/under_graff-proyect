@@ -7,15 +7,15 @@ const NewsProdutcs = () => {
         <section
             id="NewsProdutcs"
             className='w-full h-full lg:h-screen flex flex-col bg-[#9a6db7]'>
-            <div className=' h-[100px] lg:h-[150px] flex justify-center items-center'>
-                <h2 className='text-3xl sm:text-4xl  lg:text-6xl font-rust_g  tracking-wider skew-y-3 -skew-x-6'>
+            <div className='h-[120px] lg:h-[200px] flex justify-center items-center  pt-10 lg:pt-20'>
+                <h2 className='text-3xl sm:text-5xl  lg:text-7xl font-rust_g  tracking-wider skew-y-3 -skew-x-6'>
                     Recien llegadoss
                 </h2>
             </div>
 
-            <div className='flex-1 overflow-hidden '>
-                <div className='flex flex-row gap-4 mb-4 p-2 justify-evenly flex-wrap sm:gap-2
-                lg:max-w-screen-xl lg:flex-nowrap md:m-auto md:my-4  '>
+            <div className='my-auto overflow-hidden'>
+                <div className='flex flex-row gap-4 mb-4 p-2 justify-evenly flex-wrap 
+                                sm:gap-2 md:m-auto lg:max-w-screen-xl lg:flex-nowrap '>
                     <CartNewsProducts
                         productId={'bb726e23-0231-4dc8-8088-fd04a258bb7b'} />
                     <CartNewsProducts

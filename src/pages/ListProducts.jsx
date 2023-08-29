@@ -13,9 +13,9 @@ const ListProducts = () => {
     const { products, categories } = useAppContext();
 
     useEffect(() => {
-            setTimeout(() => {
-                setLoading(false);
-            }, [500])
+        setTimeout(() => {
+            setLoading(false);
+        }, [500])
     }, [products]);
 
     // useEffect(() => {
@@ -54,16 +54,17 @@ const ListProducts = () => {
                 <div className='flex flex-col items-center overflow-visible w-full box-border'>
 
                     <div className='contents'>
-                        <div className='block h-[90px] w-full'>
+                        <div className='block  h-10 lg:h-20 w-full'>
                         </div>
                     </div>
 
                     <div className='flex flex-col w-full items-center overflow-visible box-border rounded-sm'>
 
-                        <div className='relative flex w-full mt-0   '>
+                        <div className='relative flex w-full mt-0'>
 
-                            <aside className='hidden md:flex md:flex-col md:min-w-[200px] md:w-60 px-4 box-borde overflow-hidden
-                             bg-violet-950/60  rounded-sm rounded-r-none'>
+                            <aside className='hidden  box-borde overflow-hidden lg:mr-4
+                             bg-violet-950/60  rounded-sm rounded-r-none 
+                             md:flex md:flex-col md:min-w-[200px] md:w-60 md:text-center'>
                                 <section className='flex flex-col w-full mt-12 overflow-hidden'>
                                     {categories && categories?.data.map((elemet, index) =>
                                         <Filters

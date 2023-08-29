@@ -1,18 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import image1 from '../../assets/img/CarouselBanner/1.png'
-import image2 from '../../assets/img/CarouselBanner/2.webp'
+//import image2 from '../../assets/img/CarouselBanner/2.webp'
+import image4 from '../../assets/img/CarouselBanner/banner1.png'
 
 const Principal = () => {
 
-
-    const [images, setImages] = useState([image1, image2]);
+    const [images, setImages] = useState([image1, image4]);
 
     const [selectIndex, setSelectIndex] = useState(0);
     const [selectedImage, setSelectedImage] = useState((prev) => images ? images[0] : undefined);
-    
 
-
-   
     const selectImage = (images, next = true) => {
         const condition = next ? selectIndex < images.length - 1 : selectIndex > 0;
         const nextIndex = next ? (condition ? selectIndex + 1 : 0) : (condition ? selectIndex - 1 : images.length - 1)
@@ -28,7 +25,7 @@ const Principal = () => {
 
 
     return (
-        <section className=' h-[calc(100vh-100px)]  lg:h-[calc(100vh-150px)]  w-full'>
+        <section className=' h-[calc(50vh-100px)]  lg:h-[calc(100vh-150px)]  w-full'>
             <div className='relative w-full h-full flex justify-center items-center'>
 
                 <button className={`${!images ? 'hidden' : `absolute h-[80px] w-[80px] left-0 sm:left-4 lg:left-10 flex justify-center  opacity-40  items-center rounded-full 
@@ -46,7 +43,7 @@ const Principal = () => {
                 </div>
 
                 <div className={`${images ? 'overflow-hidden transition-all duration-700 h-full w-full' : 'hidden'}`}>
-                    <img className='object-cover sm:object-fill h-full w-full'
+                    <img className='object-fill h-full w-full'
                         src={selectedImage} alt={`${selectedImage}_PrincialBanner`} />
                 </div>
 
