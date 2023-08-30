@@ -8,8 +8,8 @@ const NewsProdutcs = () => {
             id="NewsProdutcs"
             className='w-full h-full lg:h-screen flex flex-col bg-[#9a6db7]'>
             <div className='h-[120px] lg:h-[200px] flex justify-center items-center  pt-10 lg:pt-20'>
-                <h2 className='text-3xl sm:text-5xl  lg:text-7xl font-rust_g  tracking-wider skew-y-3 -skew-x-6'>
-                    Recien llegadoss
+                <h2 className='text-4xl sm:text-5xl  lg:text-7xl font-rust_g  tracking-wider skew-y-3 skew-x-12'>
+                    Recien llegados
                 </h2>
             </div>
 

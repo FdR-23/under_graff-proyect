@@ -8,7 +8,7 @@ const CartMostPopular = ({ image = undefined, category = undefined }) => {
             onMouseLeave={() => setToggle(false)}
             onMouseEnter={() => setToggle(true)}
             className='  
-           w-[20rem]  h-[20rem]
+           w-[16rem]  h-[16rem]
            sm:w-full sm:h-[20rem] sm:m-2
            md:w-[14rem]  md:h-[20rem] 
            lg: lg:w-[18rem] lg:h-[24rem]

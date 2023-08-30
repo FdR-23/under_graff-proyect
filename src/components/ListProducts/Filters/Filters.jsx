@@ -22,8 +22,8 @@ const Filters = ({ filters }) => {
 
 
     return (
-        <div className='py-4 w-full block font-bungee'>
-            <div className='text-xl md:text-2xl  leading-[1.25] mb-3  tracking-wide '>
+        <div className='py-4 w-full block '>
+            <div className='text-xl md:text-2xl leading-[1.25] mb-3  tracking-widest skew-x-3 text-white/50 '>
                 {filters && filters.name.charAt(0).toUpperCase() + filters.name.slice(1)}
             </div>
             <ul className='m-0 p-0'>
@@ -31,7 +31,7 @@ const Filters = ({ filters }) => {
                     <li key={index}
                         className='mb-2 flex flex-nowrap'>
                         <button className='pl-3' onClick={() => setSearchParams({ categories: value.nombre })}>
-                            <span className='text-base md:text-lg hover:underline '
+                            <span className='text-base md:text-lg hover:underline hover:font-semibold'
                             >{value.nombre}</span>
                         </button>
                     </li>

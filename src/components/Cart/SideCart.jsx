@@ -26,7 +26,7 @@ const SideCart = ({ toggleCart, setToggleCart }) => {
 
                 <div className={`relative mt-10`}>
                     <div className='flex-col m-2 flex'>
-                        <h3 className='text-2xl font-medium text-white borderb-b pb-2 pl-4 skew-x-6 
+                        <h3 className='text-2xl lg:text-3xl  text-white borderb-b pb-2 pl-4 
                         underline underline-offset-4 tracking-widest mb-4'>Productos</h3>
                         <div className='w-full min-h-16 '>
                             {cart && cart.map((product) =>
@@ -55,7 +55,8 @@ const SideCart = ({ toggleCart, setToggleCart }) => {
 
                             <div className='flex justify-end'>
                                 <button
-                                    className='p-2 mr-2 my-2 bg-indigo-600 rounded-md shadow-sm hover:shadow-md hover:shadow-white shadow-white 
+                                    className='p-2 mr-2 my-2 bg-indigo-600 rounded-md shadow-sm 
+                                    hover:bg-fuchsia-700 hover:shadow-md hover:shadow-white shadow-white 
                                     transition-all duration-150  ease-in  '>
                                     <span className='font-bold text-white'>Finalizar Compra</span>
                                 </button>

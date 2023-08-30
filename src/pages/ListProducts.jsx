@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Product from '../components/ListProducts/Product';
-import { useAppContext } from '../components/AppProvider';
-
-import SideMenu from '../components/ListProducts/SideMenu';
-
-import { FiMenu } from 'react-icons/fi';
 import Filters from '../components/ListProducts/Filters/Filters';
+import SideMenu from '../components/ListProducts/SideMenu';
+import { useAppContext } from '../components/AppProvider';
+import { FiMenu } from 'react-icons/fi';
 
+import Loading from '../components/Loading';
 const ListProducts = () => {
     const [toggleFilter, setToggleFilter] = useState(false);
     const [loading, setLoading] = useState(true);
@@ -47,7 +46,7 @@ const ListProducts = () => {
     // }, []);
 
     if (loading) {
-        return <p>Loading</p>
+        return <Loading />
     } else {
         return (
             <div className='max-w-screen-xl w-full mx-auto mb-2'>

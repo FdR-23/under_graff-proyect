@@ -34,8 +34,8 @@ const CartNewsProducts = ({ productId = undefined }) => {
             onMouseLeave={() => setToggle(false)}
             onMouseEnter={() => setToggle(true)}
             className='  
-           w-[10rem]  h-[19rem]
-           md:w-[11rem]  md:h-[22rem] md:mt-2
+           w-[10rem]  h-[17rem]
+           md:w-[11rem]  md:h-[20rem] md:mt-2
            lg:m-2  lg:w-[15rem] lg:h-[21rem]
            xl:h-[26rem] xl:w-[17rem]
            relative  overflow-hidden rounded-lg 

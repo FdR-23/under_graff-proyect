@@ -16,11 +16,14 @@ const NavBar = () => {
         return acc = acc + value.quantity
     }, 0);
 
-    return (
-        <header className=" sm:relative h-[100px] lg:h-[150px] box-border
-        sticky z-40 top-0 right-0 left-0 border-b-2 ">
 
-            <div className='relative h-full flex box-border  justify-center bg-indigo-950 border-b-4 border-indigo-950'>
+    return (
+        <header
+            id="NavBar"
+            className=" sm:relative h-[100px] lg:h-[150px] box-border
+        sticky z-40 top-0 right-0 left-0 border-b-2 border-indigo-950">
+
+            <div className='relative h-full flex box-border  justify-center bg-indigo-950 '>
 
                 {/* <div className='bg-red-500  overflow-hidden
                  w-[16rem] h-full md:w-[20rem] lg:w-[32rem] flex justify-center items-center '>
@@ -39,7 +42,7 @@ const NavBar = () => {
 
                 <div className={` ${toggleBar === true ? 'z-50' : 'z-40'} absolute bottom-0 left-2  sm:hidden`}>
                     <button className='text-white' onClick={() => setToggleBar(true)}>
-                        <FiMenu className='w-7 h-7' />
+                        <FiMenu className={`transition-all duration-150 hover:scale-110 w-7 h-7`} />
                     </button>
                     <SideBar
                         toggleBar={toggleBar}
@@ -47,14 +50,18 @@ const NavBar = () => {
                     />
                 </div>
 
-                <div className='z-40 absolute bottom-0 right-2 sm:top-8 sm:right-4'>
-                    <div className={`${countAllItems === 0 ? 'hidden' : 'w-5 h-5 absolute -top-4 left-2 '}
+                <div className='z-40 absolute bottom-0 right-2 sm:top-8 sm:right-4 '>
+                    
+                    <div className={`${countAllItems === 0 ? 'hidden' : 'w-3 h-3 absolute -top-2 left-3 '}
                     flex items-center justify-center`}>
-                        <span className={`${countAllItems === 0 ? 'hidden' : 'text-white text-normal'}`}>{countAllItems}</span>
+                        <span
+                            className={`${countAllItems === 0 ? 'hidden' : 'text-white text-normal   '}`}>
+                            {countAllItems}
+                        </span>
                     </div>
 
-                    <button className='text-white' onClick={() => setToggleCart(true)}>
-                        <FiShoppingCart className='w-7 h-7' />
+                    <button className='text-white ' onClick={() => setToggleCart(true)}>
+                        <FiShoppingCart className='w-7 h-7 transition-all duration-150  hover:scale-110' />
                     </button>
                     <SideCart
                         toggleCart={toggleCart}
