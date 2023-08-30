@@ -34,12 +34,12 @@ const CartNewsProducts = ({ productId = undefined }) => {
             onMouseLeave={() => setToggle(false)}
             onMouseEnter={() => setToggle(true)}
             className='  
-           w-[10rem]  h-[17rem]
+           w-[10rem] h-[17rem]
            md:w-[11rem]  md:h-[20rem] md:mt-2
-           lg:m-2  lg:w-[15rem] lg:h-[21rem]
+           lg:m-2 lg:w-[15rem] lg:h-[21rem]
            xl:h-[26rem] xl:w-[17rem]
            relative  overflow-hidden rounded-lg 
-            shadow-sm shadow-fuchsia-950  hover:shadow-white hover:shadow-md transition-all duration-300 '>
+            shadow-md hover:shadow-fuchsia-950 shadow-gray-900 hover:shadow-lg transition-all duration-300 '>
 
             {/* skeleton */}
             <div className={`${!product?.image ? `flex justify-center items-center relative rounded-sm 

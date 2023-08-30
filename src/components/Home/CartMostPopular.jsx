@@ -14,7 +14,7 @@ const CartMostPopular = ({ image = undefined, category = undefined }) => {
            lg: lg:w-[18rem] lg:h-[24rem]
            xl:w-[20rem]  xl:h-[28rem] 
            overflow-hidden  rounded-md transition delay-75 duration-500 relative 
-           hover:shadow-md hover:shadow-indigo-950'>
+          shadow-sm shadow-indigo-900 hover:shadow-lg hover:shadow-indigo-950'>
 
             <div
                 className={`${!image ? `flex justify-center items-center   

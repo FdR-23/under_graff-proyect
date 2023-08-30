@@ -6,14 +6,14 @@ const NewsProdutcs = () => {
     return (
         <section
             id="NewsProdutcs"
-            className='w-full h-full lg:h-screen flex flex-col bg-[#9a6db7]'>
+            className='w-full h-full lg:h-screen flex flex-col'>
             <div className='h-[120px] lg:h-[200px] flex justify-center items-center  pt-10 lg:pt-20'>
-                <h2 className='text-4xl sm:text-5xl  lg:text-7xl font-rust_g  tracking-wider skew-y-3 skew-x-12'>
+                <h2 className='text-4xl sm:text-5xl  lg:text-7xl font-rust_g  tracking-wider skew-y-3 skew-x-12 text-fuchsia-900'>
                     Recien llegados
                 </h2>
             </div>
 
-            <div className='my-auto overflow-hidden'>
+            <div className='my-auto '>
                 <div className='flex flex-row gap-4 mb-4 p-2 justify-evenly flex-wrap 
                                 sm:gap-2 md:m-auto lg:max-w-screen-xl lg:flex-nowrap '>
                     <CartNewsProducts

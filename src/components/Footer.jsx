@@ -49,7 +49,7 @@ const Footer = () => {
 
                 <div className='flex-1 h-full  flex flex-col items-center justify-center'>
                     <div className='lg:mt-4 h-[20%]'>
-                        <h3 className='text-[#999] text-xs' >SIGUE CONECTADO</h3>
+                        <h3 className='text-[#999] text-xs lg:text-base' >SIGUE CONECTADO</h3>
                     </div>
                     <div className='flex lg:justify-center h-full m-2'>
                         <IconFacebookSvg
@@ -63,7 +63,7 @@ const Footer = () => {
 
                 <div className='flex-1 h-full flex flex-col items-center justify-center'>
                     <div className='lg:mt-4  h-[20%]'>
-                        <h3 className='text-[#999] text-xs '>¿NECESITAS AYUDA?</h3>
+                        <h3 className='text-[#999] text-xs lg:text-base'>¿NECESITAS AYUDA?</h3>
                     </div>
                     <ul className='h-full text-white '>
                         <li className='text-sm hover:scale-125 transition-all duration-200 cursor-pointer'>lorem</li>

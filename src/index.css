@@ -21,8 +21,9 @@ body {
   @apply max-w-screen-2xl m-auto font-rust_g
 }
 
+/* #2b3148, #4a5568);  */
 #root {
-  @apply flex flex-col relative min-h-screen bg-[#E9E4ED] scroll-smooth  
+  @apply flex flex-col relative min-h-screen scroll-smooth bg-[#E9E4ED]
 }
 
 .magnify {
