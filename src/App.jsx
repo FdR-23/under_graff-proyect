@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer.jsx'
+import Navbar1 from './components/Navbar1.jsx'
 
 
-
-import NavBar from './components/NavBar.jsx'
+//import NavBar from './components/NavBar.jsx'
 import Home from "./pages/Home.jsx"
 import DetailProduct from './pages/DetailProduct.jsx'
 import ListProducts from './pages/ListProducts.jsx'
@@ -15,7 +15,7 @@ function App() {
   return (
     <AppProvider>
       <Router>
-        <NavBar/>
+        <Navbar1/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<ListProducts />} />
