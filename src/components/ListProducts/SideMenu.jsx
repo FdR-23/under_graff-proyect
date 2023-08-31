@@ -1,7 +1,7 @@
 import React from 'react'
 import { FiXCircle } from "react-icons/fi";
 import Filters from './Filters/Filters';
-import { filters } from '../../Util/constans/filters.js'
+import { filters } from '../../Util/filters.js'
 const SideMenu = ({ toggleFilter, setToggleFilter }) => {
     return (
         <>

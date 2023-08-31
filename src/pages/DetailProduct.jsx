@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
 import Loading from '../components/Loading.jsx'
-import priceFormater from '../Util/constans/PriceFormater';
 import VisaCredito from '../assets/img/Tarjetas/VisaCredito.svg'
 import MCCredito from '../assets/img/Tarjetas/MCCredito.svg'
 import TarjetaNaranja from '../assets/img/Tarjetas/TarjetaNaranja.svg'
@@ -9,7 +8,7 @@ import VisaDebito from '../assets/img/Tarjetas/VisaDebito.svg'
 import MCDebito from '../assets/img/Tarjetas/MCDebito.svg'
 import PagoFacil from '../assets/img/Tarjetas/PagoFacil.svg'
 import RapiPago from '../assets/img/Tarjetas/RapiPago.svg'
-
+import priceFormater from '../Util/PriceFormater.js'
 import GuiaTalle from '../assets/img/Talles/guia_talle_details.png'
 
 import { TYPE } from '../Reducer/actions'

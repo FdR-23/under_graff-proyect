@@ -2,6 +2,8 @@ import { TYPE } from "./actions";
 
 import data_c from '../db/categories.json'
 import data_p from '../db/products.json'
+import data_products from '../db/products1.js'
+import data_categories from '../db/categories.js'
 
 //const cartStorage = JSON.parse(localStorage.getItem("Cart"));
 
@@ -9,9 +11,9 @@ import data_p from '../db/products.json'
 
 export const initialState = {
     cart: [],
-    categories: data_c,
-    products: data_p.productos,
-    copyOfProducts: data_p.productos,
+    categories: data_categories,
+    products: data_products.productos,
+    copyOfProducts: data_products.productos,
     product: undefined
 };
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import PriceFormater from '../../Util/constans/PriceFormater.js'
+import PriceFormater from '../../Util/PriceFormater.js'
 import { Link } from 'react-router-dom'
 import { FavoriteProductsSvg } from '../../Util/FavoriteProductsSvg.jsx'
 const Product = ({ product }) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import priceFormater from '../../Util/constans/PriceFormater';
+import priceFormater from '../../Util/PriceFormater';
 
 import { useAppContext } from '../AppProvider.jsx'
 import { TYPE } from '../../Reducer/actions';

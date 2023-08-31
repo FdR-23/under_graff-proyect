@@ -4,6 +4,7 @@ import { TYPE } from '../../../Reducer/actions';
 import { useAppContext } from '../../AppProvider'
 import {  useSearchParams } from 'react-router-dom';
 import { FilterCategories } from '../../../Services/Request';
+
 const Filters = ({ filters }) => {
     const { dispatch } = useAppContext();
     let [searchParams, setSearchParams] = useSearchParams();

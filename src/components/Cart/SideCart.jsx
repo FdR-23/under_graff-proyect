@@ -1,5 +1,5 @@
 import React from 'react'
-import priceFormater from '../../Util/constans/PriceFormater';
+import priceFormater from '../../Util/PriceFormater';
 import { useAppContext } from '../AppProvider'
 import CartItem from './CartItem';
 import { FiXCircle } from "react-icons/fi";
