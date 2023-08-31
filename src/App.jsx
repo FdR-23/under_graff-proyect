@@ -14,7 +14,6 @@ function App() {
   return (
     <AppProvider>
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<ListProducts />} />
