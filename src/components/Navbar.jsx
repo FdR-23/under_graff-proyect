@@ -51,7 +51,7 @@ const NavBar = () => {
                 </div>
 
                 <div className='z-40 absolute bottom-0 right-2 sm:top-8 sm:right-4 '>
-                    
+
                     <div className={`${countAllItems === 0 ? 'hidden' : 'w-3 h-3 absolute -top-2 left-3 '}
                     flex items-center justify-center`}>
                         <span
@@ -98,5 +98,6 @@ const NavBar = () => {
         </header >
     )
 }
+
 
 export default NavBar
