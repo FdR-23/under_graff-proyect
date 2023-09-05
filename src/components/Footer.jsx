@@ -66,9 +66,9 @@ const Footer = () => {
                         <h3 className='text-[#999] text-xs lg:text-base'>¿NECESITAS AYUDA?</h3>
                     </div>
                     <ul className='h-full text-white '>
-                        <li className='text-sm hover:scale-125 transition-all duration-200 cursor-pointer'>lorem</li>
-                        <li className='text-sm hover:scale-125 transition-all duration-200 cursor-pointer'>lorem</li>
-                        <li className='text-sm hover:scale-125 transition-all duration-200 cursor-pointer'>lorem</li>
+                        <li className='text-sm hover:scale-125 transition-all duration-200 cursor-pointer'>Envíos/Devoluciones</li>
+                        <li className='text-sm hover:scale-125 transition-all duration-200 cursor-pointer'>Políticas de la tienda</li>
+                        <li className='text-sm hover:scale-125 transition-all duration-200 cursor-pointer'>info@undergraff.com</li>
                     </ul>
                 </div>
 
